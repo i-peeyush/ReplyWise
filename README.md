@@ -3,14 +3,14 @@
 ---
 
 ```markdown
-# 📨 ReplyWise
+#ReplyWise
 
 **ReplyWise** is a full-stack application that generates AI-powered email replies based on tone and context.  
 Built with **Spring Boot** (Backend) and **React + Vite** (Frontend).
 
 ---
 
-## 📁 Project Structure
+##Project Structure
 
 ```
 
@@ -23,7 +23,7 @@ ReplyWise/
 
 ---
 
-## 🔧 Tech Stack
+##Tech Stack
 
 | Layer     | Technology                          |
 |-----------|-------------------------------------|
@@ -33,20 +33,20 @@ ReplyWise/
 
 ---
 
-## 🚀 Features
+##Features
 
-- ✉️ AI-based reply email generation using Gemini
-- 🎯 Tone-based customization (formal, friendly, concise, etc.)
-- 📩 Gmail integration (optional)
-- ⚙️ Full-stack architecture with clean separation
+- AI-based reply email generation using Gemini
+- Tone-based customization (formal, friendly, concise, etc.)
+- Gmail integration (optional)
+- Full-stack architecture with clean separation
 
 ---
 
-## 🖥️ Frontend (React + Vite)
+## Frontend (React + Vite)
 
-### 📌 Path: `frontend/`
+### Path: `frontend/`
 
-### 🛠️ Setup
+### Setup
 
 ```bash
 cd frontend
@@ -58,11 +58,11 @@ npm run dev
 
 ---
 
-## ⚙️ Backend (Spring Boot)
+## Backend (Spring Boot)
 
-### 📌 Path: `backend/`
+### Path: `backend/`
 
-### 🛠️ Setup
+### Setup
 
 1. Open in IntelliJ or VS Code (with Java support).
 2. Configure `application.properties`:
@@ -84,7 +84,7 @@ spring.datasource.password=your_password
 
 ---
 
-## 🔐 Environment Variables (Recommended)
+## Environment Variables (Recommended)
 
 Create a `.env` file in both frontend and backend (or use `.env.local` in React). Example:
 
@@ -96,28 +96,21 @@ VITE_BACKEND_URL=http://localhost:8080
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 > Coming soon...
 
-You can deploy the frontend easily to [Vercel](https://vercel.com) or [Netlify](https://netlify.com), and backend to [Render](https://render.com), [Railway](https://railway.app), or a VPS.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome!
 For major changes, please open an issue first to discuss what you'd like to change.
 
----
 
-## 📄 License
 
-MIT License — free to use, fork, and improve.
-
----
-
-## 🙏 Acknowledgements
+## Acknowledgements
 
 * [Gemini AI API](https://ai.google.dev)
 * [Spring Boot](https://spring.io)
