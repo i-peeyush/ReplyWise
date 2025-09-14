@@ -1,0 +1,150 @@
+/* App.css */
+
+/* Body styling */
+body {
+  margin: 0;
+  font-family: 'Inter', 'Roboto', sans-serif;
+  background: #f4f6f8;
+  color: #2c3e50;
+  min-height: 100vh;
+}
+
+/* Header styling */
+.app-header {
+  background: linear-gradient(90deg, #1976d2, #42a5f5);
+  color: white;
+  padding: 16px 32px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.app-logo {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.app-tagline {
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+/* Main container card */
+.MuiContainer-root {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+  max-width: 800px;
+  width: 100%;
+  margin: 20px auto;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+/* Typography */
+.MuiTypography-h4 {
+  font-weight: 700;
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 25px;
+}
+
+/* Text fields */
+.MuiTextField-root {
+  background: #fafbfc;
+  border-radius: 12px;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 12px !important;
+}
+
+/* Form select label */
+.MuiInputLabel-root {
+  font-weight: 500;
+}
+
+/* Buttons */
+.MuiButton-contained {
+  background: linear-gradient(90deg, #1976d2, #42a5f5);
+  color: #fff !important;
+  font-weight: 600;
+  border-radius: 12px;
+  text-transform: none;
+  padding: 12px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.MuiButton-contained:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(25, 118, 210, 0.3);
+}
+
+.MuiButton-outlined {
+  border-radius: 12px;
+  text-transform: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 2px solid #1976d2 !important;
+  color: #1976d2 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.MuiButton-outlined:hover {
+  background: #e3f2fd;
+  transform: translateY(-2px);
+}
+
+/* Generated reply card */
+.generated-reply-box {
+  margin-top: 30px;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.developer-info {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ffffff;
+  padding: 12px 16px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  text-align: right;
+  font-size: 0.85rem;
+  color: #1976d2;
+  z-index: 1000;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.developer-info:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.developer-info a.dev-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.developer-info a.dev-link:hover {
+  color: #1565c0;
+}
+
+.dev-icon {
+  width: 18px;
+  height: 18px;
+}
